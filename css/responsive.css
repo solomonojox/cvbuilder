@@ -1,0 +1,88 @@
+@media (max-width: 768px){
+  /* Header Section */
+  .header-section{
+    flex-direction: column;
+    height: auto;
+    padding: 100px 20px;
+  }
+  .header-section img{
+    width: 350px auto;
+  }
+  .header-section h1, p{
+    font-size: auto;
+  }
+
+  /* Services */
+  .innercontainer{
+    border-radius: 50px 50px 0 0;
+  }
+  .innercontainer .description{
+    text-align: justify;
+    margin: 5px 20px;
+    color: var(--p_color);
+  }
+  .services{
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 20px;
+  }
+  .services-info-card{
+    width: 100%;
+  }
+
+  /* About us */
+  .about-us{
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 20px;
+  }
+  .about-us .about-us-img{
+    width: 100%;
+  }
+  .about-photo img{
+    width: 100%;
+  }
+
+  /* Why chose us */
+  .testimonials{
+    flex-direction: column;
+    height: 60vh;
+  }
+  .choose-us .choose-us-img{
+    width: 100%;
+  }
+  .choose-photo img{
+    width: 100%;
+  }
+
+  .testimonials-container{
+    flex-direction: column;
+  }
+
+  /* Contact us */
+  .contact-form input{
+    width: 350px;
+  }
+  .contact-form textarea{
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-info{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px){
+  .services{
+    padding: 40px;
+    gap: 10px;
+  }
+  .services .services-info{
+    gap: 10px;
+  }
+  .testimonials-card{
+    padding: 0 10px;
+    width: 300px;
+  }
+}

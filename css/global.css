@@ -1,0 +1,56 @@
+:root{
+  --bg_color: #eee;
+  --navbar_bg: #fff;
+  --footer_bg: #222;
+  --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --primary_color: teal;
+  --secondary_color: #ff8872;
+  --btn_bg: teal;
+  --hover: #05a6a6;
+  --h1_color: #333;
+  --h2_color: #444;
+  --p_color: #535353;
+  --a_color: teal;
+  --btn_text_color: #fff;
+}
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+p{
+  /* color: var(--p_color); */
+  font-size: 14px;
+}
+h1{
+  color: var(--primary_color);
+  font-size: 25px;
+}
+
+/* wrapper */
+.wrapper-wrap{
+  background-color: var(--bg_color);
+  padding: 80px 0 0 0;
+}
+
+/* learn more */
+.learn-more{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.learn-more button{
+  background-color: var(--primary_color);
+  color: var(--btn_text_color);
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 10px 10px 10px rgba(1 1 1 / 10%);
+}
+.learn-more button:hover{
+  background-color: var(--hover);
+}
