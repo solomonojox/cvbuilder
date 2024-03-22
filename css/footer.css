@@ -1,10 +1,18 @@
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .footer-info{
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  background-color: var(--footer_bg);
-  padding: 50px 100px;
-  color: white;
+  /* background-color: var(--footer_bg); */
+  padding: 50px;
+  color: var(--p_color);
+  width: 100%;
 }
 
 .footer-info h3{
@@ -24,7 +32,7 @@
 }
 .footer-info .quick-links a{
   text-decoration: none;
-  color: white;
+  color: var(--p_color);
 }
 
 .footer-info form{
@@ -36,7 +44,7 @@
   padding: 10px;
   border: none;
   border-radius: 50px;
-  outline: white 1px solid;
+  outline: rgba(0, 0, 0, 0.2) 1px solid;
   background-color: transparent;
   color: var(--primary_color);
   font-size: 1rem
@@ -54,10 +62,15 @@
   background-color: var(--hover);
 }
 
-.footer-info .follow-us{
+.follow-us{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  align-items: center;
+  /* margin-bottom: 50px; */
+}
+.follow-us .follow-icons{
+  display: flex;
+  gap: 20px;
 }
 .footer-info .follow-us a{
   text-decoration: none;
@@ -66,11 +79,23 @@
   align-items: center;
   gap: 10px;
 }
+footer .follow-us i{
+  font-size: 30px;
+  border-radius: 50%;
+  color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .copyright{
   text-align: center;
-  padding: 20px;
-  background-color: var(--footer_bg);
-  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  /* background-color: var(--footer_bg); */
+  border-top: 1px solid rgba(0,0,0, 0.2);
+  width: 100%;
+  color: var(--p_color);
   font-size: 10px;
 }

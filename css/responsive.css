@@ -54,9 +54,21 @@
   .choose-photo img{
     width: 100%;
   }
+  .choose-us{
+    padding: 20px;
+    flex-direction: column;
+  }
 
   .testimonials-container{
     flex-direction: column;
+  }
+
+  /* Prices */
+  .card-wrapper{
+    padding: 50px;
+  }
+  .card{
+    width: 100%;
   }
 
   /* Contact us */
