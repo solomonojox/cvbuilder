@@ -18,19 +18,18 @@
 
   /* Services */
   .innercontainer{
-    border-radius: 50px 50px 0 0;
+    border-radius: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 10px;
   }
-  .innercontainer .description{
-    text-align: justify;
-    margin: 5px 20px;
-    color: var(--p_color);
-  }
+
   .services{
-    flex-direction: column;
-    gap: 50px;
-    padding: 50px 20px;
+    padding: 20px;
+    width: 100%;
   }
-  .services-info-card{
+
+  .what-we-do, .services-info, .services-info-card{
     width: 100%;
   }
 
@@ -102,10 +101,10 @@
 }
 
 @media (max-width: 1024px){
-  .services{
+  /* .services{
     padding: 40px;
     gap: 10px;
-  }
+  } */
   .services .services-info{
     gap: 10px;
   }

@@ -1,7 +1,7 @@
 *{
   margin: 0;
   box-sizing: border-box;
-  /* padding: 0; */
+  padding: 0;
 }
 
 html{
@@ -44,19 +44,11 @@ body.hidden-scrolling{
 
 /* Services */
 .innercontainer{
-  background-color: #fff;
-  padding: 20px 0 50px;
+  background-color: #ffedea;
+  padding: 60px 150px;
   border-radius: 100px 100px 0 0;
 }
-.innercontainer .title{
-  text-align: center;
-  margin: 40px 0;
-}
-.innercontainer .description{
-  text-align: center;
-  margin: 20px 200px;
-  color: var(--p_color);
-}
+
 .what-we-do h3{
   font-size: 30px;
 }
@@ -64,8 +56,6 @@ body.hidden-scrolling{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 10%;
-  /* height: 50vh; */
   gap: 20px;
 }
 .services .services-info{
@@ -74,24 +64,15 @@ body.hidden-scrolling{
   justify-content: space-between;
 }
 .services-info-card{
-  /* background-color: var(--btn_text_color); */
   width: 230px;
-  padding: 5px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* box-shadow: 0 5px 25px rgba(1 1 1 / 20%); */
-  border-radius: 10px;
 }
 .services-info-card i{
   font-size: 50px;
   color: var(--primary_color);
 }
-/* .services-info-card:hover, .services-info-card:hover i{
-  background-color: var(--primary_color);
-  color: var(--btn_text_color);
-  transition: all 0.3s ease;
-} */
 
 /* About us */
 .about-us{
