@@ -16,7 +16,7 @@ footer{
 }
 
 .footer-info h3{
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .footer-info .footer-about-us{
@@ -99,3 +99,4 @@ footer .follow-us i{
   color: var(--p_color);
   font-size: 10px;
 }
+

@@ -1,4 +1,7 @@
 @media (max-width: 768px){
+  .wrapper-wrap{
+    padding: 0;
+  }
   /* Header Section */
   .header-section{
     flex-direction: column;
@@ -6,7 +9,8 @@
     padding: 100px 20px;
   }
   .header-section img{
-    width: 350px auto;
+    width: 100%;
+    height: auto;
   }
   .header-section h1, p{
     font-size: auto;
@@ -34,29 +38,34 @@
   .about-us{
     flex-direction: column;
     gap: 50px;
-    padding: 50px 20px;
-  }
-  .about-us .about-us-img{
-    width: 100%;
   }
   .about-photo img{
     width: 100%;
+    padding: 0 20px;
+  }
+  .about-us-details{
+    border-radius: 0;
+    width: 100%;
+    padding: 20px;
+    height: auto;
   }
 
   /* Why chose us */
   .testimonials{
     flex-direction: column;
-    height: 60vh;
   }
-  .choose-us .choose-us-img{
-    width: 100%;
-  }
-  .choose-photo img{
-    width: 100%;
+  .choose-us-image{
+    width: 350px;
+    height: 350px;
   }
   .choose-us{
     padding: 20px;
     flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+  .choose-us-details{
+    width: 100%;
   }
 
   .testimonials-container{
@@ -64,8 +73,12 @@
   }
 
   /* Prices */
+  .prices-info{
+    margin: 20px;
+    color: #fff;
+  }
   .card-wrapper{
-    padding: 50px;
+    padding: 20px;
   }
   .card{
     width: 100%;
@@ -82,6 +95,9 @@
   /* Footer */
   .footer-info{
     flex-direction: column;
+  }
+  .footer-info{
+    gap: 20px;
   }
 }
 
