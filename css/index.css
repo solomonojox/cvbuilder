@@ -39,7 +39,6 @@ body.hidden-scrolling{
 }
 .header-section p{
   font-size: 18px;
-  font-weight: bold;
   color: var(--p_color);
 }
 
