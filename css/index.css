@@ -135,34 +135,6 @@ body.hidden-scrolling{
   color: var(--secondary_color);
 }
 
-.testimonials{
-  margin-top: 20px;
-  height: 200px;
-}
-.testimonials-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-.testimonials-card{
-  display: flex;
-  width: 350px;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--primary_color);
-  padding: 10px;
-}
-.testimonial-card-details, .testimonial-card-details p{
-  color: var(--btn_text_color);
-}
-.testimonials-card img{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin: 20px;
-}
-
 /* Card for Prices */
 .prices-info{
   margin: 0 20%;
@@ -189,6 +161,24 @@ body.hidden-scrolling{
   justify-content: center;
   box-shadow: 0 5px 25px rgba(1 1 1 / 5%);
   border-radius: 10px;
+  border: 1.5px solid #6161e9;
+}
+.card a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  padding: 10px;
+  background-color: var(--primary_color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.card button{
+  background-color: transparent;
+  color: var(--btn_text_color);
+  border: none;
+  outline: none;
 }
 .amount{
   margin: 5px 0;
