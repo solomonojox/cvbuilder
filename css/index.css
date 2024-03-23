@@ -28,13 +28,14 @@ body.hidden-scrolling{
   background-color: white;
 }
 .header-section img{
-  width: 400px;
+  width: 500px;
 }
 .header-section span{
   color: var(--secondary_color);
 }
 .header-section h1{
   font-size: 40px;
+  line-height: 1.2;
 }
 .header-section p{
   font-size: 18px;
@@ -95,6 +96,9 @@ body.hidden-scrolling{
   padding: 100px;
   border-radius: 200px 0 0 200px;
   background-color: white;
+}
+.about-us-details .image-div img{
+  width: 100px;
 }
 
 /* Why chose us */

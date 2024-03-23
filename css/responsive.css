@@ -98,6 +98,14 @@
   .footer-info{
     gap: 20px;
   }
+
+  .follow-us .follow-icons{
+    gap: 10px;
+  }
+
+  footer .follow-us i{
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1024px){
