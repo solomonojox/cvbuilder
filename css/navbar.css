@@ -130,7 +130,7 @@ a{
   transition: all 0.3s ease;
 }
 .nav_active > a{
-  color: var(--primary_color) !important;
+  color: var(--secondary_color) !important;
 }
 
 /* Sticky */
