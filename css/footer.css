@@ -34,6 +34,9 @@ footer{
   text-decoration: none;
   color: var(--p_color);
 }
+.footer-info .quick-links a:hover{
+  color: var(--secondary_color);
+}
 
 .footer-info form{
   display: flex;
